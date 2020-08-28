@@ -1,0 +1,104 @@
+
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+    margin-bottom: 10px!important;
+    font-size: 44px!important;
+    line-height: 1.6!important;
+    font-weight: 700;
+}
+/* #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+    color: #000;
+    border: 1px solid #000;
+    background: transparent !important;
+    cursor: url(../down.png) 0 16, pointer!important;
+}  */
+#colorlib-aside{
+	overflow-y: hidden!important;
+}
+.colorlib-about{
+	padding-top: 50px!important;
+	padding-bottom: 50px!important;
+}
+.fa {
+    font-size: 26px!important;
+    color: #333333;
+ }
+ .fa-facebook-square:hover{
+ 	color: #3e5b99;
+ }
+ .fa-linkedin-square:hover{
+ 	color: #0077b5;
+ }
+ .fa-instagram:hover{
+ 	color: #cf244d;
+ }
+ .fa-skype:hover{
+ 	color: #00aff0;
+ }
+ .fa-quora:hover{
+ 	color: #cf244d;
+ }
+.fa-twitter-square:hover{
+	color: #1da1f2;
+}
+.project .desc{
+    background: #11110e69!important;
+}
+.text-size-p{
+    font-size: 16px;
+}
+.colorlib-heading{
+    margin-bottom: 20px!important;
+}
+.fa-download{
+    font-size: 13px!important;
+}
+.fa-desktop, .fa-globe, .fa-mobile{
+    font-size: 40px!important;
+}
+
+.banner-for-me{
+   background-image: url(../images/banner.jpg)!important;
+    width: 100%!important;
+    float: left!important;
+    margin-right: -100%!important;
+    position: relative!important;
+    opacity: 1!important;
+    display: block!important;
+    transition: opacity 0.6s ease 0s!important;
+    z-index: 2!important;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #colorlib-aside{
+	overflow-y: scroll!important;
+}
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+    margin-bottom: 20px!important;
+    font-size: 25px!important;
+    line-height: 1.6!important;
+    font-weight: 700;
+    text-align: left!important;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+   #colorlib-aside{
+	overflow-y: scroll!important;
+}
+
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+    margin-bottom: 20px!important;
+    font-size: 25px!important;
+    line-height: 1.6!important;
+    font-weight: 700;
+    text-align: left!important;
+}
+}
